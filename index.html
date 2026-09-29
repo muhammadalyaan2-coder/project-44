@@ -1,0 +1,40 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Headphone Product</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="card">
+
+        <img id="productImg"
+        src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+        onmouseover="changeImg()"
+        onmouseout="backImg()">
+
+        <h1 id="productName">Wireless Headphone</h>
+        <p id="description">
+            This is a good quality wireless headphone.
+        </p>
+        <h3 id="price">Price: Rs. 3500</h3>
+        <button onclick="buyNow()">Buy Now</button>
+        <button onclick="changeProduct()">Change Product</button>
+        <br><br>
+        <input type="text" id="userName" placeholder="Enter your name">
+        <button onclick="welcome()">Welcome</button>
+
+        <p id="welcome"></p>
+
+        <button onclick="changeDetails()">Change Product Details</button>
+
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
+```
